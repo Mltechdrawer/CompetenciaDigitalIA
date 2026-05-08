@@ -1,0 +1,50 @@
+site_name: Competencia Digital e IA Aplicada
+site_description: Microcredencial Universitaria (3 ECTS)
+site_author: Marilola Afonso -- ULPGC
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - toc.integrate
+    - search.highlight
+    - search.suggest
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+
+nav:
+  - Inicio: index.md
+
+  - "Bloque I – Diagnóstico y Fundamentos":
+      - "S1 – Competencia y ecosistema digitales, DigComp 3.0": bloque1/sesion1.md
+      - "S2 – Fundamentos de la IA aplicada": bloque1/sesion2.md
+
+  - "Bloque II – IA Aplicada a Procesos Reales":
+      - "S3 – Búsqueda, síntesis y validación de información con IA": bloque2/sesion3.md
+      - "S4 – Diseño de workflows con IA generativa": bloque2/sesion4.md
+      - "S5 – Automatización y optimización de tareas con IA": bloque2/sesion5.md
+      - "S6 – Evaluación de calidad y sesgos con IA": bloque2/sesion6.md
+
+  - "Bloque III – Ética, Datos y Responsabilidad":
+      - "S7 – Protección de datos y privacidad": bloque3/sesion7.md
+      - "S8 – Propiedad intelectual e impacto de la IA": bloque3/sesion8.md
+
+  - "Bloque IV – Integración y Diseño Aplicado":
+      - "S9 – Diseño del Proyecto": bloque4/sesion9.md
+      - "S10 – Presentaciones I": bloque4/sesion10.md
+      - "S11 – Presentaciones II": bloque4/sesion11.md
+      - "S12 – Cierre": bloque4/sesion12.md

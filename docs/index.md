@@ -6,7 +6,7 @@
 
 ## Competencia Digital e IA Aplicada
 
-**Competencia Digital e IA Aplicada** ees una microcredencial universitaria (3 ECTS) orientada a fortalecer el dominio estratégico, crítico y responsable de las herramientas digitales y de la inteligencia artificial en contextos académicos y profesionales. Su objetivo es capacitar al alumnado para integrar soluciones digitales e IA —incluida la IA generativa— en procesos reales de aprendizaje, investigación o trabajo, garantizando un uso ético, seguro y fundamentado. La formación se alinea con el marco europeo DigComp 2.2 y refuerza competencias clave para la empleabilidad y el aprendizaje permanente en entornos digitales en constante evolución.
+**Competencia Digital e IA Aplicada** es una microcredencial universitaria (3 ECTS) orientada a fortalecer el dominio estratégico, crítico y responsable de las herramientas digitales y de la inteligencia artificial en contextos académicos y profesionales. Su objetivo es capacitar al alumnado para integrar soluciones digitales e IA —incluida la IA generativa— en procesos reales de aprendizaje, investigación o trabajo, garantizando un uso ético, seguro y fundamentado. La formación se alinea con el marco europeo DigComp 3.0 y refuerza competencias clave para la empleabilidad y el aprendizaje permanente en entornos digitales en constante evolución.
 
 <a href="files/PAMN%20Presentación%202025-2026.pdf" target="_blank"><img src="https://img.shields.io/badge/Presentación-2025%2F26-blue" alt="badge"/></a>
 

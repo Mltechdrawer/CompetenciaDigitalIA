@@ -4,5 +4,5 @@
 
 
 ---
-**Resultados de aprendizaje:** RA02 , RA04 
-**Competencias:** CG01, CG02, CG03, CE02, CE04
+**Resultados de aprendizaje:** RA01  
+**Competencias:** CG01, CE01 

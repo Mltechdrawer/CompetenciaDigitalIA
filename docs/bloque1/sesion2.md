@@ -5,24 +5,24 @@
 En la sesión anterior analizamos qué significa ser digitalmente competente en un entorno tecnológico complejo.  
 En esta sesión daremos un paso más: comprender qué ocurre cuando las herramientas digitales dejan de limitarse a ejecutar instrucciones y comienzan a generar respuestas, recomendaciones y contenido.
 
-La inteligencia artificial ya forma parte de:
+La inteligencia artificial ya forma parte de:  
 
-- buscadores,
-- redes sociales,
-- plataformas de streaming,
-- sistemas de recomendación,
-- asistentes virtuales,
-- herramientas académicas,
-- y sistemas de IA generativa como ChatGPT.
+- buscadores,  
+- redes sociales,  
+- plataformas de streaming,  
+- sistemas de recomendación,  
+- asistentes virtuales,  
+- herramientas académicas,  
+- y sistemas de IA generativa como ChatGPT.    
 
-Sin embargo, utilizar IA no implica necesariamente comprenderla.
+Sin embargo, utilizar IA no implica necesariamente comprenderla.  
 
-El objetivo de esta sesión es construir una visión crítica y fundamentada sobre:
+El objetivo de esta sesión es construir una visión crítica y fundamentada sobre:  
 
-- qué es realmente la inteligencia artificial,
-- cómo ha evolucionado,
-- por qué la IA generativa supone un cambio importante,
-- y qué implicaciones tiene en el aprendizaje, el trabajo y la toma de decisiones.
+- qué es realmente la inteligencia artificial,  
+- cómo ha evolucionado,  
+- por qué la IA generativa supone un cambio importante,  
+- y qué implicaciones tiene en el aprendizaje, el trabajo y la toma de decisiones.  
 
 ---
 
@@ -32,19 +32,19 @@ El objetivo de esta sesión es construir una visión crítica y fundamentada sob
 
 No todo sistema automatizado es inteligencia artificial.
 
-Una calculadora:
-- ejecuta operaciones definidas;
-- sigue instrucciones exactas;
-- no aprende;
-- no adapta respuestas.
+Una calculadora:  
+- ejecuta operaciones definidas;  
+- sigue instrucciones exactas;  
+- no aprende;  
+- no adapta respuestas.  
 
-Un sistema de IA:
-- identifica patrones,
-- realiza predicciones,
-- aprende a partir de datos,
-- genera respuestas probabilísticas.
+Un sistema de IA:  
+- identifica patrones,  
+- realiza predicciones,  
+- aprende a partir de datos,  
+- genera respuestas probabilísticas.  
 
-La inteligencia artificial no “piensa” como una persona.
+La inteligencia artificial no “piensa” como una persona.  
 
 Funciona identificando relaciones matemáticas y probabilísticas a partir de enormes cantidades de información.
 
@@ -55,33 +55,33 @@ Funciona identificando relaciones matemáticas y probabilísticas a partir de en
 ### IA basada en reglas
 Sistemas construidos mediante instrucciones explícitas.
 
-Ejemplo:
-- sistemas expertos,
-- árboles de decisión clásicos.
+Ejemplo:  
+- sistemas expertos,  
+- árboles de decisión clásicos.  
 
 ### Machine Learning
 Sistemas que aprenden patrones a partir de datos.
 
-Ejemplo:
-- detección de spam,
-- recomendaciones de contenido,
-- predicción de comportamiento.
+Ejemplo:  
+- detección de spam,  
+- recomendaciones de contenido,  
+- predicción de comportamiento.  
 
 ### Deep Learning
 Uso de redes neuronales profundas capaces de procesar grandes volúmenes de información compleja.
 
-Ejemplo:
-- reconocimiento facial,
-- traducción automática,
-- reconocimiento de voz.
+Ejemplo:  
+- reconocimiento facial,  
+- traducción automática,  
+- reconocimiento de voz.  
 
 ### IA generativa
-Sistemas capaces de producir contenido nuevo:
-- texto,
-- imágenes,
-- código,
-- audio,
-- vídeo.
+Sistemas capaces de producir contenido nuevo:  
+- texto,  
+- imágenes,  
+- código,  
+- audio,  
+- vídeo.  
 
 ---
 
@@ -103,14 +103,13 @@ A partir de esta pregunta surgieron los primeros trabajos relacionados con IA.
 
 Durante décadas se pensó que la inteligencia podía construirse mediante:
 
-- reglas lógicas,
-- símbolos,
-- razonamiento formal.
+- reglas lógicas,  
+- símbolos,  
+- razonamiento formal.  
 
 Los sistemas expertos intentaban imitar decisiones humanas mediante enormes conjuntos de reglas.
 
-El problema era evidente:
-el mundo real es demasiado complejo para describirse únicamente mediante reglas.
+El problema era evidente: el mundo real es demasiado complejo para describirse únicamente mediante reglas.
 
 ---
 
@@ -122,10 +121,10 @@ La IA atravesó varios periodos de crisis conocidos como:
 
 Las expectativas eran demasiado altas respecto a las capacidades reales de la tecnología.
 
-Faltaban:
-- datos,
-- capacidad computacional,
-- algoritmos suficientemente potentes.
+Faltaban:  
+- datos,  
+- capacidad computacional,  
+- algoritmos suficientemente potentes.  
 
 ---
 
@@ -141,11 +140,11 @@ para pasar a:
 
 > “permitir que el sistema aprenda patrones”.
 
-Esto impulsó:
-- reconocimiento de imágenes,
-- traducción automática,
-- asistentes virtuales,
-- sistemas predictivos.
+Esto impulsó:  
+- reconocimiento de imágenes,  
+- traducción automática,  
+- asistentes virtuales,  
+- sistemas predictivos.  
 
 ---
 
@@ -153,20 +152,20 @@ Esto impulsó:
 
 La IA generativa representa un nuevo salto.
 
-Modelos actuales como:
-- ChatGPT,
-- Gemini,
-- Claude,
-- Copilot,
+Modelos actuales como:  
+- ChatGPT,  
+- Gemini,  
+- Claude,  
+- Copilot,  
 
 son capaces de generar contenido aparentemente humano.
 
-Esto transforma:
-- la educación,
-- el trabajo,
-- la creatividad,
-- la investigación,
-- la comunicación.
+Esto transforma:  
+- la educación,  
+- el trabajo,  
+- la creatividad,  
+- la investigación,  
+- la comunicación.  
 
 ---
 
@@ -192,10 +191,10 @@ La IA generativa no “sabe” realmente lo que dice.
 
 Funciona prediciendo cuál es la siguiente palabra, imagen o elemento más probable dentro de un contexto.
 
-Por ello:
-- puede generar respuestas muy convincentes;
-- puede sonar segura;
-- puede parecer experta;
+Por ello:  
+- puede generar respuestas muy convincentes;  
+- puede sonar segura;  
+- puede parecer experta;  
 
 y aun así producir errores o información falsa.
 
@@ -205,18 +204,18 @@ y aun así producir errores o información falsa.
 
 Los modelos actuales funcionan a partir de:
 
-- entrenamiento masivo,
-- enormes cantidades de texto,
-- aprendizaje estadístico,
-- interacción mediante prompts.
+- entrenamiento masivo,  
+- enormes cantidades de texto,  
+- aprendizaje estadístico,  
+- interacción mediante prompts.  
 
 El prompt se convierte en una nueva forma de comunicación entre humanos y sistemas inteligentes.
 
-La calidad del resultado depende enormemente de:
-- claridad,
-- contexto,
-- precisión,
-- capacidad crítica del usuario.
+La calidad del resultado depende enormemente de:  
+- claridad,  
+- contexto,  
+- precisión,  
+- capacidad crítica del usuario.  
 
 ---
 
@@ -224,10 +223,10 @@ La calidad del resultado depende enormemente de:
 
 Los sistemas generativos pueden:
 
-- inventar referencias,
-- producir afirmaciones falsas,
-- reflejar sesgos presentes en los datos de entrenamiento,
-- transmitir información incorrecta con gran seguridad aparente.
+- inventar referencias,  
+- producir afirmaciones falsas,  
+- reflejar sesgos presentes en los datos de entrenamiento,  
+- transmitir información incorrecta con gran seguridad aparente.  
 
 Por ello, la validación humana sigue siendo imprescindible.
 
@@ -238,14 +237,16 @@ Por ello, la validación humana sigue siendo imprescindible.
 Uno de los mayores riesgos actuales es antropomorfizar la IA.
 
 Cuando una herramienta:
-- escribe fluidamente,
-- mantiene conversaciones,
-- responde rápidamente,
+
+- escribe fluidamente,  
+- mantiene conversaciones,  
+- responde rápidamente,  
 
 es fácil atribuirle:
-- comprensión,
-- intención,
-- razonamiento humano.
+
+- comprensión,  
+- intención,  
+- razonamiento humano.  
 
 Sin embargo, una respuesta convincente no implica comprensión real.
 
@@ -292,20 +293,6 @@ El problema aparece cuando:
 - dejamos de cuestionar sus respuestas;
 - delegamos completamente el pensamiento;
 - confundimos fluidez con verdad.
-
----
-
-# 6. Preparación para la siguiente sesión
-
-En la próxima sesión comenzaremos a trabajar de forma práctica con herramientas de IA generativa.
-
-Analizaremos:
-- prompting,
-- interacción con modelos,
-- validación de respuestas,
-- verificación de información,
-- uso académico responsable,
-- limitaciones reales de los sistemas generativos.
 
 ---
 

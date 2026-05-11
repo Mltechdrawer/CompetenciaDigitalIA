@@ -309,6 +309,9 @@ El problema aparece cuando:
 
 > La competencia digital no consiste únicamente en utilizar herramientas, sino en comprender cómo afectan a nuestras decisiones, nuestro aprendizaje y nuestra forma de pensar.
 
+
+Actividad [Cómo interactuamos con la IA](actividadinteraccion.md)
+
 ---
 **Resultados de aprendizaje:** RA01   
 **Competencias:** CG01, CE01

@@ -1,0 +1,1348 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Microcredencial Universitaria (3 ECTS)">
+      
+      
+        <meta name="author" content="Marilola Afonso -- ULPGC">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Ingeniería de Prompts - Competencia Digital e IA Aplicada</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ingenieria-de-prompts" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../.." title="Competencia Digital e IA Aplicada" class="md-header__button md-logo" aria-label="Competencia Digital e IA Aplicada" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Competencia Digital e IA Aplicada
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Ingeniería de Prompts
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Competencia Digital e IA Aplicada" class="md-nav__button md-logo" aria-label="Competencia Digital e IA Aplicada" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Competencia Digital e IA Aplicada
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inicio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Bloque I – Diagnóstico y Fundamentos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Bloque I – Diagnóstico y Fundamentos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sesion1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    S1 – Competencia y ecosistema digitales, DigComp 3.0
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sesion2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    S2 – Fundamentos de la IA aplicada
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Bloque II – IA Aplicada a Procesos Reales
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Bloque II – IA Aplicada a Procesos Reales
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bloque2/sesion3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    S3 – Búsqueda, síntesis y validación de información con IA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bloque2/sesion4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    S4 – Diseño de workflows con IA generativa
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bloque2/sesion5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    S5 – Automatización y optimización de tareas con IA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bloque2/sesion6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    S6 – Evaluación de calidad y sesgos con IA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Bloque III – Ética, Datos y Responsabilidad
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Bloque III – Ética, Datos y Responsabilidad
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bloque3/sesion7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    S7 – Protección de datos y privacidad
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bloque3/sesion8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    S8 – Propiedad intelectual e impacto de la IA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Bloque IV – Integración y Diseño Aplicado
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Bloque IV – Integración y Diseño Aplicado
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bloque4/sesion9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    S9 – Diseño del Proyecto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bloque4/sesion10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    S10 – Presentaciones I
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bloque4/sesion11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    S11 – Presentaciones II
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bloque4/sesion12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    S12 – Cierre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prompt-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt Engineering
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introducción
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-que-es-un-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. ¿Qué es un prompt?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-objetivos-de-la-ingenieria-de-prompts" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Objetivos de la ingeniería de prompts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-anatomia-de-un-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Anatomía de un prompt
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Anatomía de un prompt">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-de-estructura-eficiente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplo de estructura eficiente
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-prompts-ineficientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Prompts ineficientes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-tipos-de-prompts" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Tipos de prompts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-principios-de-diseno-de-prompts" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Principios de diseño de prompts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-tecnicas-avanzadas-de-prompting" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Técnicas avanzadas de prompting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Técnicas avanzadas de prompting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81-trigger-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1 Trigger words
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82-chain-of-thought-cot" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.2 Chain of Thought (CoT)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83-prompt-priming" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.3 Prompt Priming
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#84-one-shot-y-few-shot-prompting" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.4 One-shot y Few-shot prompting
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#85-tree-of-thoughts-tot" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.5 Tree of Thoughts (ToT)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.5 Tree of Thoughts (ToT)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#idea-principal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Idea principal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diferencias-con-chain-of-thought" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diferencias con Chain of Thought
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#casos-de-uso-recomendados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Casos de uso recomendados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ventajas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ventajas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limitaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Limitaciones
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#86-visualization-of-thoughts-vot" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.6 Visualization of Thoughts (VoT)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.6 Visualization of Thoughts (VoT)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#idea-principal_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Idea principal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#casos-de-uso-potenciales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Casos de uso potenciales
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#estado-actual-de-la-tecnica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estado actual de la técnica
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomendacion-didactica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomendación didáctica
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-especificacion-del-formato-de-salida" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Especificación del formato de salida
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-reflexion-final" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Reflexión final
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="ingenieria-de-prompts">Ingeniería de Prompts<a class="headerlink" href="#ingenieria-de-prompts" title="Permanent link">&para;</a></h1>
+<h2 id="prompt-engineering">Prompt Engineering<a class="headerlink" href="#prompt-engineering" title="Permanent link">&para;</a></h2>
+<h2 id="1-introduccion">1. Introducción<a class="headerlink" href="#1-introduccion" title="Permanent link">&para;</a></h2>
+<p>La <strong>ingeniería de prompts</strong> (<em>Prompt Engineering</em>) es la disciplina que estudia cómo <strong>diseñar, formular y optimizar instrucciones</strong> para interactuar de manera eficaz con modelos de lenguaje de gran tamaño (<em>Large Language Models</em>, LLMs).</p>
+<p>Dado que los LLMs generan sus respuestas en función del texto de entrada, la calidad del <em>prompt</em> resulta determinante para obtener respuestas <strong>precisas, coherentes, útiles y alineadas con los objetivos del usuario</strong>.</p>
+<hr />
+<h2 id="2-que-es-un-prompt">2. ¿Qué es un prompt?<a class="headerlink" href="#2-que-es-un-prompt" title="Permanent link">&para;</a></h2>
+<p>Un <strong>prompt</strong> es el texto de entrada que se proporciona a un modelo de lenguaje para guiar la generación de una respuesta. Puede adoptar múltiples formas, desde una pregunta sencilla hasta una instrucción compleja con contexto, ejemplos y restricciones.</p>
+<p>Los prompts permiten:<br />
+- Guiar la generación de respuestas.<br />
+- Optimizar el rendimiento del modelo.<br />
+- Adaptar el comportamiento del modelo a distintos contextos.<br />
+- Evaluar la calidad y fiabilidad de las respuestas obtenidas  </p>
+<hr />
+<h2 id="3-objetivos-de-la-ingenieria-de-prompts">3. Objetivos de la ingeniería de prompts<a class="headerlink" href="#3-objetivos-de-la-ingenieria-de-prompts" title="Permanent link">&para;</a></h2>
+<p>Los principales objetivos de la ingeniería de prompts son:</p>
+<ol>
+<li><strong>Guiar la generación de respuestas</strong>, reduciendo la ambigüedad.</li>
+<li><strong>Optimizar el rendimiento del modelo</strong>, obteniendo respuestas más relevantes.</li>
+<li><strong>Adaptar el prompt al contexto</strong>, dominio y nivel del usuario.</li>
+<li><strong>Evaluar y mejorar la calidad de los prompts</strong>, detectando deficiencias y sesgos.</li>
+</ol>
+<hr />
+<h2 id="4-anatomia-de-un-prompt">4. Anatomía de un prompt<a class="headerlink" href="#4-anatomia-de-un-prompt" title="Permanent link">&para;</a></h2>
+<p>Un prompt eficaz suele componerse de los siguientes elementos:</p>
+<ol>
+<li><strong>Claridad y especificidad</strong>  </li>
+<li><strong>Contexto y antecedentes</strong>  </li>
+<li><strong>Objetivo o propósito</strong>  </li>
+<li><strong>Palabras clave y términos relevantes</strong>  </li>
+<li><strong>Limitaciones o directrices específicas</strong> </li>
+</ol>
+<h3 id="ejemplo-de-estructura-eficiente">Ejemplo de estructura eficiente<a class="headerlink" href="#ejemplo-de-estructura-eficiente" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p><strong>Introducción:</strong><br />
+<em>Estoy interesado en las prácticas sostenibles en la agricultura moderna.</em></p>
+</li>
+<li>
+<p><strong>Pregunta específica:</strong><br />
+<em>¿Podrías explicar cómo las técnicas de agricultura de precisión y la agricultura orgánica contribuyen a la sostenibilidad medioambiental?</em></p>
+</li>
+<li>
+<p><strong>Directrices:</strong><br />
+<em>La respuesta debe ser técnica, detallada y no superar las 500 palabras.</em></p>
+</li>
+</ul>
+<hr />
+<h2 id="5-prompts-ineficientes">5. Prompts ineficientes<a class="headerlink" href="#5-prompts-ineficientes" title="Permanent link">&para;</a></h2>
+<p>Un prompt mal diseñado puede generar respuestas vagas o irrelevantes.</p>
+<p><strong>Ejemplo de prompt ineficiente:</strong></p>
+<blockquote>
+<p><em>“Dime cosas sobre plantas.”</em></p>
+</blockquote>
+<p>Este prompt carece de:<br />
+- claridad,<br />
+- contexto,<br />
+- objetivo definido,  </p>
+<p>No define qué aspecto de las plantas interesa(biología,uso en jardinería, importancia ecológica, etc.), no proporciona contexto o antecedentes, y no establece un objetivo o propósito claro para la respuesta.
+Esta falta de estructura y detalles puede resultar en una respuesta de la IA que no cumpla con las expectativas o necesidades del usuario.</p>
+<hr />
+<h2 id="6-tipos-de-prompts">6. Tipos de prompts<a class="headerlink" href="#6-tipos-de-prompts" title="Permanent link">&para;</a></h2>
+<p>Según su finalidad, los prompts pueden clasificarse en:</p>
+<ol>
+<li>
+<p><strong>Informativos</strong><br />
+<em>Ejemplo:</em> Explica las causas y efectos del cambio climático.</p>
+</li>
+<li>
+<p><strong>Creativos</strong><br />
+<em>Ejemplo:</em> Escribe un cuento corto sobre un viaje a Marte en el año 2100.</p>
+</li>
+<li>
+<p><strong>Educativos</strong><br />
+<em>Ejemplo:</em> Describe el proceso de fotosíntesis.</p>
+</li>
+<li>
+<p><strong>Interactivos</strong><br />
+<em>Ejemplo:</em> ¿Cuál es tu película favorita y por qué?</p>
+</li>
+<li>
+<p><strong>Analíticos</strong><br />
+<em>Ejemplo:</em> Analiza las tendencias de ventas del último trimestre.</p>
+</li>
+<li>
+<p><strong>Técnicos</strong><br />
+<em>Ejemplo:</em> Explica el funcionamiento de los motores eléctricos.</p>
+</li>
+</ol>
+<hr />
+<h2 id="7-principios-de-diseno-de-prompts">7. Principios de diseño de prompts<a class="headerlink" href="#7-principios-de-diseno-de-prompts" title="Permanent link">&para;</a></h2>
+<p>Un buen diseño de prompts se basa en los siguientes principios:</p>
+<ol>
+<li><strong>Claridad y precisión</strong>  </li>
+<li><strong>Especificidad</strong>  </li>
+<li><strong>Contexto y relevancia</strong>  </li>
+<li><strong>Objetivo definido</strong>  </li>
+<li><strong>Concisión</strong>  </li>
+<li><strong>Adaptabilidad</strong>  </li>
+</ol>
+<p>Estos principios permiten maximizar la utilidad del modelo y reducir respuestas erróneas o ambiguas.</p>
+<p><a href="../delimitadores/">Delimitadores</a></p>
+<hr />
+<h2 id="8-tecnicas-avanzadas-de-prompting">8. Técnicas avanzadas de prompting<a class="headerlink" href="#8-tecnicas-avanzadas-de-prompting" title="Permanent link">&para;</a></h2>
+<h3 id="81-trigger-words">8.1 Trigger words<a class="headerlink" href="#81-trigger-words" title="Permanent link">&para;</a></h3>
+<p>Las <em>trigger words</em> o <strong>palabras desencadenantes</strong> orientan al modelo hacia un tipo de razonamiento o respuesta concreta, por ejemplo: <em>analiza</em>, <em>justifica</em>, <em>compara</em>, <em>resume</em>.</p>
+<p><a href="../ejemplosprompts/#1-prompt-analitico">Analítico</a></p>
+<p><a href="../ejemplosprompts/#2-prompt-explicativo-paso-a-paso">Explicativo</a></p>
+<p><a href="../ejemplosprompts/#3-prompt-comparativo-y-critico">Comparativo y crítico</a></p>
+<hr />
+<h3 id="82-chain-of-thought-cot">8.2 Chain of Thought (CoT)<a class="headerlink" href="#82-chain-of-thought-cot" title="Permanent link">&para;</a></h3>
+<p>La técnica <strong>Chain of Thought</strong> consiste en pedir explícitamente al modelo que <strong>razone paso a paso</strong>, lo que mejora el rendimiento en problemas complejos.</p>
+<p><strong>Ejemplo:</strong></p>
+<blockquote>
+<p><em>Resuelve el problema paso a paso, explicando el razonamiento seguido.</em></p>
+</blockquote>
+<p><a href="../ejemplosprompts/#1-problema-cuantitativo">Problema cuantitativo</a></p>
+<p><a href="../ejemplosprompts/#2-decision-multicriterio">Decisión multicriterio</a></p>
+<p><a href="../ejemplosprompts/#3-optimizacion-de-ruta">Optimización de ruta</a></p>
+<hr />
+<h3 id="83-prompt-priming">8.3 Prompt Priming<a class="headerlink" href="#83-prompt-priming" title="Permanent link">&para;</a></h3>
+<p>El <strong>priming</strong> consiste en proporcionar instrucciones iniciales que preparan al modelo antes de la tarea principal.</p>
+<p><strong>Ejemplo:</strong></p>
+<blockquote>
+<p><em>Inicia tu respuesta con una introducción breve, continúa con un ejemplo paso a paso y finaliza con una pregunta de práctica.</em></p>
+</blockquote>
+<p><a href="../ejemplosprompts/#1-priming-con-rol-experto">Priming con rol experto</a></p>
+<p><a href="../ejemplosprompts/#2-priming-con-estructura-y-estilo">Priming con estructura y estilo</a></p>
+<p><a href="../ejemplosprompts/#3-priming-con-contexto-de-uso">Priming con contexto de uso</a></p>
+<hr />
+<h3 id="84-one-shot-y-few-shot-prompting">8.4 One-shot y Few-shot prompting<a class="headerlink" href="#84-one-shot-y-few-shot-prompting" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>One-shot:</strong> se proporciona un único ejemplo.</li>
+<li><strong>Few-shot:</strong> se proporcionan varios ejemplos para guiar el comportamiento del modelo.</li>
+</ul>
+<p>Estas técnicas permiten <strong>modelar el estilo, formato y nivel de detalle</strong> de la respuesta.</p>
+<p><a href="../ejemplosprompts/#1-one-shot">One shot un único ejemplo</a></p>
+<p><a href="../ejemplosprompts/#2-one-shot">One shot formato y estilo</a></p>
+<p><a href="../ejemplosprompts/#3-few-shot">Few shot varios ejemplos</a></p>
+<p><a href="../ejemplosprompts/#4-few-shot">Few shot rol y estilo consistente</a></p>
+<h3 id="85-tree-of-thoughts-tot">8.5 Tree of Thoughts (ToT)<a class="headerlink" href="#85-tree-of-thoughts-tot" title="Permanent link">&para;</a></h3>
+<p>La técnica <strong>Tree of Thoughts (ToT)</strong> es una extensión avanzada del enfoque <em>Chain of Thought</em> que permite a los modelos de lenguaje <strong>explorar múltiples caminos de razonamiento en paralelo</strong>, organizados en forma de árbol, en lugar de seguir una única secuencia lineal de pensamiento.</p>
+<h4 id="idea-principal">Idea principal<a class="headerlink" href="#idea-principal" title="Permanent link">&para;</a></h4>
+<p>En lugar de generar una sola cadena de razonamiento, el modelo:</p>
+<ul>
+<li>Produce <strong>varias alternativas de pensamiento</strong> en cada paso,</li>
+<li>Evalúa la calidad o viabilidad de cada alternativa,</li>
+<li>Descarta ramas poco prometedoras,</li>
+<li>Continúa explorando las ramas más relevantes hasta alcanzar una solución final.</li>
+</ul>
+<p>Este enfoque resulta especialmente eficaz en <strong>problemas complejos</strong>, donde la exploración, la planificación y la evaluación intermedia son fundamentales.</p>
+<h4 id="diferencias-con-chain-of-thought">Diferencias con Chain of Thought<a class="headerlink" href="#diferencias-con-chain-of-thought" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Chain of Thought</th>
+<th>Tree of Thoughts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Razonamiento lineal</td>
+<td>Razonamiento ramificado</td>
+</tr>
+<tr>
+<td>Una única secuencia</td>
+<td>Múltiples caminos posibles</td>
+</tr>
+<tr>
+<td>Sin evaluación intermedia explícita</td>
+<td>Evaluación y poda de ramas</td>
+</tr>
+<tr>
+<td>Adecuado para problemas moderados</td>
+<td>Adecuado para problemas complejos</td>
+</tr>
+</tbody>
+</table>
+<p><a href="../ejemplosprompts/#1-tree-of-thoughts">Árbol de pensamientos</a></p>
+<h4 id="casos-de-uso-recomendados">Casos de uso recomendados<a class="headerlink" href="#casos-de-uso-recomendados" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Problemas de lógica y razonamiento abstracto</li>
+<li>Planificación y toma de decisiones</li>
+<li>Juegos, puzzles y búsqueda de estrategias</li>
+<li>Tareas donde existen múltiples soluciones posibles</li>
+</ul>
+<h4 id="ventajas">Ventajas<a class="headerlink" href="#ventajas" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Fomenta un razonamiento más deliberado y profundo</li>
+<li>Reduce la probabilidad de soluciones apresuradas</li>
+<li>Mejora la calidad en tareas que requieren exploración</li>
+</ul>
+<h4 id="limitaciones">Limitaciones<a class="headerlink" href="#limitaciones" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Incrementa el coste computacional</li>
+<li>No siempre es necesario para tareas simples</li>
+</ul>
+<hr />
+<h3 id="86-visualization-of-thoughts-vot">8.6 Visualization of Thoughts (VoT)<a class="headerlink" href="#86-visualization-of-thoughts-vot" title="Permanent link">&para;</a></h3>
+<p>La <strong>Visualization of Thoughts (VoT)</strong> es una técnica emergente que propone inducir al modelo a <strong>representar su razonamiento de forma visual o espacial</strong>, como diagramas mentales, mapas conceptuales o estructuras gráficas, con el objetivo de mejorar su capacidad de razonamiento en determinados dominios.</p>
+<h4 id="idea-principal_1">Idea principal<a class="headerlink" href="#idea-principal_1" title="Permanent link">&para;</a></h4>
+<p>El modelo no solo explica sus pasos, sino que:</p>
+<ul>
+<li>Organiza el razonamiento como si fuera un <strong>esquema visual</strong>,</li>
+<li>Usa estructuras espaciales (listas jerárquicas, grafos, mapas),</li>
+<li>Simula la construcción de un “mapa mental” del problema.</li>
+</ul>
+<p>Esta técnica ha mostrado resultados prometedores en tareas de <strong>razonamiento espacial</strong>, navegación, planificación y comprensión estructural.</p>
+<p><a href="../ejemplosprompts/#1-visualization-of-thoughts">Visualización de pensamientos</a></p>
+<h4 id="casos-de-uso-potenciales">Casos de uso potenciales<a class="headerlink" href="#casos-de-uso-potenciales" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Razonamiento espacial o geométrico</li>
+<li>Análisis de sistemas complejos</li>
+<li>Problemas que se benefician de esquemas o mapas</li>
+<li>Apoyo al razonamiento multimodal</li>
+</ul>
+<h4 id="estado-actual-de-la-tecnica">Estado actual de la técnica<a class="headerlink" href="#estado-actual-de-la-tecnica" title="Permanent link">&para;</a></h4>
+<p><strong>Técnica experimental</strong></p>
+<ul>
+<li>No está aún consolidada como estándar en ingeniería de prompts</li>
+<li>Procede principalmente de investigación académica reciente</li>
+<li>Se considera una <strong>línea emergente</strong>, más que una práctica establecida</li>
+</ul>
+<h4 id="recomendacion-didactica">Recomendación didáctica<a class="headerlink" href="#recomendacion-didactica" title="Permanent link">&para;</a></h4>
+<p>Esta técnica es adecuada para:</p>
+<ul>
+<li>Introducir tendencias actuales de investigación</li>
+<li>Mostrar los límites y evolución de la ingeniería de prompts</li>
+<li>Contextos avanzados o exploratorios</li>
+</ul>
+<p>No se recomienda como técnica básica o generalista.</p>
+<hr />
+<h2 id="9-especificacion-del-formato-de-salida">9. Especificación del formato de salida<a class="headerlink" href="#9-especificacion-del-formato-de-salida" title="Permanent link">&para;</a></h2>
+<p>Los prompts pueden indicar explícitamente el <strong>formato de la respuesta</strong>, como:</p>
+<ul>
+<li>Texto plano</li>
+<li>Listas y viñetas</li>
+<li>Tablas</li>
+<li>Código fuente</li>
+<li>Resúmenes</li>
+<li>Traducciones</li>
+<li>Formatos estructurados (CSV, JSON, etc.)</li>
+</ul>
+<p><a href="../ejemplosprompts/#1-especificar-el-formato-de-salida">Especificar el formato de salida</a></p>
+<hr />
+<h2 id="10-reflexion-final">10. Reflexión final<a class="headerlink" href="#10-reflexion-final" title="Permanent link">&para;</a></h2>
+<p>La ingeniería de prompts no consiste únicamente en “hacer buenas preguntas”, sino en <strong>comprender cómo interactúan los modelos de lenguaje con el texto de entrada</strong>.</p>
+<p>Dominar esta disciplina permite:  <br />
+- mejorar la calidad de las respuestas,<br />
+- reducir errores y alucinaciones,<br />
+- aprovechar de forma crítica y responsable el potencial de los LLMs.  </p>
+<p>Este conocimiento es clave para el uso profesional y académico de herramientas como ChatGPT.</p>
+<p><a href="../ejemplosparaprobar/">Ejemplos prácticos</a> </p>
+<p><a href="../actividad1/">Actividad 1</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.highlight", "search.suggest"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

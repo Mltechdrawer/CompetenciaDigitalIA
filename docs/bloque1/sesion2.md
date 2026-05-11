@@ -217,6 +217,9 @@ La calidad del resultado depende enormemente de:
 - precisión,  
 - capacidad crítica del usuario.  
 
+
+[Ingeniería de prompts](ip.md)
+
 ---
 
 ## Alucinaciones y sesgos

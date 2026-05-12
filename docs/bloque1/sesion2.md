@@ -24,6 +24,8 @@ El objetivo de esta sesión es construir una visión crítica y fundamentada sob
 - por qué la IA generativa supone un cambio importante,  
 - y qué implicaciones tiene en el aprendizaje, el trabajo y la toma de decisiones.  
 
+![Herramientas Digitales - Sistemas Inteligentes](1.png)
+
 ---
 
 # 1. ¿Qué entendemos realmente por Inteligencia Artificial?
@@ -47,6 +49,8 @@ Un sistema de IA:
 La inteligencia artificial no “piensa” como una persona.  
 
 Funciona identificando relaciones matemáticas y probabilísticas a partir de enormes cantidades de información.
+
+![Qué entendemos por inteligencia](2.png)
 
 ---
 
@@ -111,6 +115,8 @@ Los sistemas expertos intentaban imitar decisiones humanas mediante enormes conj
 
 El problema era evidente: el mundo real es demasiado complejo para describirse únicamente mediante reglas.
 
+![Razonamiento formal](4.png)
+
 ---
 
 ## Los inviernos de la IA
@@ -127,6 +133,8 @@ Faltaban:
 - algoritmos suficientemente potentes.  
 
 ---
+
+![Historia](3.png)
 
 ## Machine Learning y Deep Learning
 

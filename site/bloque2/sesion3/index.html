@@ -776,6 +776,415 @@
 
 
 <h1 id="sesion-3-busqueda-sintesis-y-validacion-de-informacion-con-ia">Sesión 3 – Búsqueda, síntesis y validación de información con IA<a class="headerlink" href="#sesion-3-busqueda-sintesis-y-validacion-de-informacion-con-ia" title="Permanent link">&para;</a></h1>
+<h1 id="introduccion">Introducción<a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h1>
+<p>Durante los primeros años de popularización de la inteligencia artificial generativa, gran parte de la atención se centró en aprender a escribir buenos prompts. Se hablaba constantemente de “ingeniería de prompts”, de técnicas avanzadas para formular instrucciones y de estrategias para conseguir mejores respuestas de los modelos.</p>
+<p>Sin embargo, el ecosistema actual está cambiando rápidamente. Los sistemas de IA ya no se limitan únicamente a responder preguntas o generar texto. Cada vez son más capaces de utilizar herramientas externas, recordar contexto, dividir problemas complejos en tareas más pequeñas, buscar información, ejecutar acciones e incluso colaborar con usuarios humanos durante procesos completos de trabajo.</p>
+<p>La IA generativa está evolucionando desde simples chatbots hacia asistentes y agentes capaces de participar activamente en tareas reales.</p>
+<p>Esta transformación no elimina la necesidad del ser humano. Al contrario: cambia el papel que desempeñamos. Ya no basta con escribir instrucciones. Ahora debemos supervisar, validar, coordinar y comprender cómo funcionan estos sistemas.</p>
+<hr />
+<h1 id="1-de-los-primeros-prompts-a-la-ia-actual">1. De los primeros prompts a la IA actual<a class="headerlink" href="#1-de-los-primeros-prompts-a-la-ia-actual" title="Permanent link">&para;</a></h1>
+<h2 id="11-la-primera-etapa-de-la-ia-generativa">1.1. La primera etapa de la IA generativa<a class="headerlink" href="#11-la-primera-etapa-de-la-ia-generativa" title="Permanent link">&para;</a></h2>
+<p>Cuando aparecieron los primeros modelos conversacionales accesibles al público, la interacción era relativamente sencilla. El usuario escribía una pregunta y el sistema generaba una respuesta.</p>
+<p>Por ejemplo:</p>
+<ul>
+<li>“Resume este texto.”</li>
+<li>“Explícame qué es una base de datos.”</li>
+<li>“Genera un correo formal.”</li>
+<li>“Escribe código en Python.”</li>
+</ul>
+<p>En esta etapa: </p>
+<ul>
+<li>el usuario dirigía completamente la conversación;  </li>
+<li>la IA no tenía memoria persistente;  </li>
+<li>no podía acceder a herramientas externas;  </li>
+<li>y su comportamiento dependía enormemente de cómo estuviese redactado el prompt.  </li>
+</ul>
+<p>La calidad de las respuestas variaba mucho dependiendo de la habilidad del usuario para formular instrucciones.</p>
+<hr />
+<h2 id="12-la-explosion-de-la-ingenieria-de-prompts">1.2. La explosión de la ingeniería de prompts<a class="headerlink" href="#12-la-explosion-de-la-ingenieria-de-prompts" title="Permanent link">&para;</a></h2>
+<p>A medida que los modelos mejoraron, surgió una disciplina informal conocida como <em>prompt engineering</em> o ingeniería de prompts.</p>
+<p>El objetivo era aprender a comunicarse mejor con los modelos.</p>
+<p>Comenzaron a popularizarse técnicas como:</p>
+<h3 id="zero-shot-prompting">Zero-shot prompting<a class="headerlink" href="#zero-shot-prompting" title="Permanent link">&para;</a></h3>
+<p>Consiste en pedir directamente una tarea sin proporcionar ejemplos previos.</p>
+<p>Ejemplo:</p>
+<blockquote>
+<p>“Clasifica este comentario como positivo o negativo.”</p>
+</blockquote>
+<hr />
+<h3 id="few-shot-prompting">Few-shot prompting<a class="headerlink" href="#few-shot-prompting" title="Permanent link">&para;</a></h3>
+<p>Se proporcionan varios ejemplos antes de solicitar la tarea.</p>
+<p>Ejemplo:</p>
+<p>Comentario: “Me encantó el servicio.” → Positivo<br />
+Comentario: “La aplicación falla constantemente.” → Negativo  </p>
+<p>Ahora clasifica:</p>
+<blockquote>
+<p>“La interfaz es lenta pero útil.”</p>
+</blockquote>
+<hr />
+<h3 id="chain-of-thought">Chain of Thought<a class="headerlink" href="#chain-of-thought" title="Permanent link">&para;</a></h3>
+<p>Consiste en pedir al modelo que razone paso a paso antes de responder.</p>
+<p>Ejemplo:</p>
+<blockquote>
+<p>“Resuelve el problema razonando paso a paso.”</p>
+</blockquote>
+<p>Esta técnica mejoró enormemente el comportamiento de los modelos en tareas complejas.</p>
+<hr />
+<h2 id="13-que-esta-ocurriendo-ahora">1.3. ¿Qué está ocurriendo ahora?<a class="headerlink" href="#13-que-esta-ocurriendo-ahora" title="Permanent link">&para;</a></h2>
+<p>Actualmente, muchos modelos:<br />
+- razonan mejor;<br />
+- necesitan menos instrucciones complejas;<br />
+- mantienen contexto durante conversaciones largas;<br />
+- utilizan memoria;<br />
+- interactúan con herramientas externas;<br />
+- ejecutan tareas en varios pasos;<br />
+- y generan distintos tipos de contenido simultáneamente.  </p>
+<p>La consecuencia es importante:</p>
+<blockquote>
+<p>La ingeniería de prompts no ha desaparecido, pero ya no ocupa el mismo lugar que hace dos años.</p>
+</blockquote>
+<p>Antes, gran parte del esfuerzo estaba en “descubrir cómo hablarle al modelo”.<br />
+Ahora, cada vez más esfuerzo se dedica a:<br />
+- diseñar procesos;<br />
+- supervisar resultados;<br />
+- validar información;<br />
+- coordinar herramientas;<br />
+- y automatizar tareas completas.  </p>
+<hr />
+<h1 id="2-del-chatbot-al-agente-inteligente">2. Del chatbot al agente inteligente<a class="headerlink" href="#2-del-chatbot-al-agente-inteligente" title="Permanent link">&para;</a></h1>
+<h2 id="21-que-es-un-chatbot">2.1. ¿Qué es un chatbot?<a class="headerlink" href="#21-que-es-un-chatbot" title="Permanent link">&para;</a></h2>
+<p>Un chatbot tradicional:<br />
+- responde preguntas;<br />
+- mantiene una conversación;<br />
+- genera contenido;<br />
+- pero normalmente no actúa fuera del entorno conversacional.  </p>
+<p>Por ejemplo:<br />
+- redacta textos;<br />
+- responde dudas;<br />
+- genera resúmenes;<br />
+- traduce contenido.  </p>
+<p>Su función principal es producir respuestas.</p>
+<hr />
+<h2 id="22-que-es-un-agente-de-ia">2.2. ¿Qué es un agente de IA?<a class="headerlink" href="#22-que-es-un-agente-de-ia" title="Permanent link">&para;</a></h2>
+<p>Un agente de IA va más allá de la conversación.</p>
+<p>Un agente:<br />
+- puede planificar tareas;<br />
+- dividir problemas complejos;<br />
+- utilizar herramientas externas;<br />
+- consultar información;<br />
+- ejecutar acciones;<br />
+- evaluar resultados;<br />
+- y continuar trabajando hasta alcanzar un objetivo.  </p>
+<p>En lugar de responder únicamente a preguntas, intenta completar tareas.</p>
+<hr />
+<h2 id="23-diferencias-principales">2.3. Diferencias principales<a class="headerlink" href="#23-diferencias-principales" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Chatbot tradicional</th>
+<th>Agente de IA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conversa</td>
+<td>Ejecuta tareas</td>
+</tr>
+<tr>
+<td>Responde preguntas</td>
+<td>Persigue objetivos</td>
+</tr>
+<tr>
+<td>Genera texto</td>
+<td>Utiliza herramientas</td>
+</tr>
+<tr>
+<td>Depende continuamente del usuario</td>
+<td>Puede actuar parcialmente de forma autónoma</td>
+</tr>
+<tr>
+<td>Sesiones aisladas</td>
+<td>Mantiene contexto y memoria</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="24-ejemplos-actuales">2.4. Ejemplos actuales<a class="headerlink" href="#24-ejemplos-actuales" title="Permanent link">&para;</a></h2>
+<p>Hoy existen asistentes capaces de:<br />
+- buscar información en Internet;<br />
+- resumir documentos extensos;<br />
+- generar presentaciones;<br />
+- programar aplicaciones;<br />
+- analizar datos;<br />
+- consultar bases de datos;<br />
+- crear imágenes;<br />
+- automatizar tareas repetitivas;<br />
+- organizar información;<br />
+- y colaborar con usuarios humanos.  </p>
+<p>Muchas plataformas actuales integran ya capacidades de agente.</p>
+<p>Entre ellas:
+- OpenAI<br />
+- Google<br />
+- Microsoft<br />
+- Anthropic  </p>
+<hr />
+<h1 id="3-como-funciona-un-agente-de-ia">3. Cómo funciona un agente de IA<a class="headerlink" href="#3-como-funciona-un-agente-de-ia" title="Permanent link">&para;</a></h1>
+<p>Aunque los sistemas reales son muy complejos, podemos simplificar su arquitectura en cuatro grandes componentes.</p>
+<hr />
+<h2 id="31-el-modelo-de-lenguaje">3.1. El modelo de lenguaje<a class="headerlink" href="#31-el-modelo-de-lenguaje" title="Permanent link">&para;</a></h2>
+<p>Es el núcleo del sistema.</p>
+<p>El modelo:<br />
+- interpreta instrucciones;<br />
+- genera respuestas;<br />
+- razona;<br />
+- produce texto, código o contenido multimodal.  </p>
+<p>Es la parte “inteligente” del sistema.  </p>
+<hr />
+<h2 id="32-la-memoria">3.2. La memoria<a class="headerlink" href="#32-la-memoria" title="Permanent link">&para;</a></h2>
+<p>Permite recordar:
+- contexto; <br />
+- preferencias;<br />
+- conversaciones anteriores;<br />
+- información relevante.  </p>
+<p>Sin memoria, cada interacción comenzaría desde cero.</p>
+<hr />
+<h2 id="33-las-herramientas">3.3. Las herramientas<a class="headerlink" href="#33-las-herramientas" title="Permanent link">&para;</a></h2>
+<p>Muchos agentes pueden utilizar herramientas externas:<br />
+- navegadores web;<br />
+- bases de datos;<br />
+- calculadoras;<br />
+- sistemas de archivos;<br />
+- APIs;<br />
+- generadores de imágenes;<br />
+- hojas de cálculo;<br />
+- editores de código.  </p>
+<p>Aquí aparece uno de los mayores cambios respecto a los primeros chatbots.</p>
+<p>La IA ya no solo “habla”.<br />
+Ahora también “opera”.</p>
+<hr />
+<h2 id="34-el-sistema-de-planificacion">3.4. El sistema de planificación<a class="headerlink" href="#34-el-sistema-de-planificacion" title="Permanent link">&para;</a></h2>
+<p>Un agente puede dividir un problema complejo en tareas más pequeñas.</p>
+<p>Por ejemplo:</p>
+<p>Objetivo:</p>
+<blockquote>
+<p>“Prepara un informe sobre energías renovables.”</p>
+</blockquote>
+<p>Posible proceso:<br />
+1. Buscar información.<br />
+2. Seleccionar fuentes fiables.<br />
+3. Extraer datos.<br />
+4. Resumir contenidos.<br />
+5. Crear gráficos.<br />
+6. Redactar conclusiones.<br />
+7. Generar el documento final.  </p>
+<p>Esto se aproxima más al comportamiento de un asistente digital que al de un simple chatbot.</p>
+<hr />
+<h1 id="4-busqueda-sintesis-y-validacion-de-informacion-con-ia">4. Búsqueda, síntesis y validación de información con IA<a class="headerlink" href="#4-busqueda-sintesis-y-validacion-de-informacion-con-ia" title="Permanent link">&para;</a></h1>
+<h2 id="41-la-transformacion-de-la-busqueda-de-informacion">4.1. La transformación de la búsqueda de información<a class="headerlink" href="#41-la-transformacion-de-la-busqueda-de-informacion" title="Permanent link">&para;</a></h2>
+<p>Durante décadas, la búsqueda de información en Internet se basó principalmente en motores de búsqueda tradicionales. El usuario introducía palabras clave y obtenía una lista de enlaces que debía revisar manualmente.</p>
+<p>La llegada de la IA generativa ha comenzado a transformar este modelo.</p>
+<p>Actualmente, muchos sistemas permiten:<br />
+- realizar preguntas en lenguaje natural;<br />
+- obtener respuestas sintetizadas;<br />
+- resumir múltiples fuentes;<br />
+- comparar información;<br />
+- y recibir explicaciones adaptadas al contexto del usuario.  </p>
+<p>Esto cambia profundamente la experiencia de búsqueda.</p>
+<p>Antes:
+- el usuario buscaba enlaces.</p>
+<p>Ahora:
+- el usuario recibe directamente una interpretación de la información.</p>
+<hr />
+<h2 id="42-la-ia-como-herramienta-de-sintesis">4.2. La IA como herramienta de síntesis<a class="headerlink" href="#42-la-ia-como-herramienta-de-sintesis" title="Permanent link">&para;</a></h2>
+<p>Una de las capacidades más potentes de la IA generativa es la síntesis automática de información.</p>
+<p>Los modelos actuales pueden:<br />
+- resumir artículos científicos;<br />
+- comparar documentos;<br />
+- extraer ideas principales;<br />
+- simplificar lenguaje técnico;<br />
+- reorganizar contenido complejo;<br />
+- generar conclusiones preliminares;<br />
+- y producir explicaciones adaptadas a distintos niveles de conocimiento.  </p>
+<p>Por ejemplo, un estudiante puede solicitar:</p>
+<blockquote>
+<p>“Resume este artículo científico en cinco ideas clave.”</p>
+</blockquote>
+<p>O también:</p>
+<blockquote>
+<p>“Explícame este documento como si fuera para alumnado de secundaria.”</p>
+</blockquote>
+<p>La IA permite reducir enormemente el tiempo necesario para procesar grandes volúmenes de información.</p>
+<p>Sin embargo, esta ventaja también introduce riesgos importantes.</p>
+<hr />
+<h2 id="43-el-problema-de-la-fiabilidad">4.3. El problema de la fiabilidad<a class="headerlink" href="#43-el-problema-de-la-fiabilidad" title="Permanent link">&para;</a></h2>
+<p>La IA generativa no “comprende” la información como un ser humano. Los modelos generan respuestas probabilísticas a partir de patrones aprendidos durante el entrenamiento.</p>
+<p>Como consecuencia:<br />
+- pueden mezclar información correcta e incorrecta;<br />
+- inventar referencias;<br />
+- generar datos falsos;<br />
+- producir citas inexistentes;<br />
+- o crear explicaciones aparentemente convincentes pero erróneas.  </p>
+<p>Este fenómeno se conoce como alucinación.</p>
+<p>Uno de los mayores riesgos de la IA generativa es precisamente su capacidad para producir respuestas falsas con gran apariencia de credibilidad.</p>
+<p>Por ello, utilizar IA correctamente implica desarrollar una actitud crítica permanente.</p>
+<hr />
+<h2 id="44-estrategias-de-validacion-de-informacion">4.4. Estrategias de validación de información<a class="headerlink" href="#44-estrategias-de-validacion-de-informacion" title="Permanent link">&para;</a></h2>
+<p>La validación de información se convierte en una competencia fundamental en la era de la IA.</p>
+<p>No basta con obtener respuestas rápidas. También es necesario verificar su calidad y fiabilidad.</p>
+<p>Algunas estrategias importantes son:</p>
+<h3 id="contrastar-multiples-fuentes">Contrastar múltiples fuentes<a class="headerlink" href="#contrastar-multiples-fuentes" title="Permanent link">&para;</a></h3>
+<p>Nunca depender de una única respuesta generada por IA.</p>
+<hr />
+<h3 id="revisar-las-fuentes-originales">Revisar las fuentes originales<a class="headerlink" href="#revisar-las-fuentes-originales" title="Permanent link">&para;</a></h3>
+<p>Siempre que sea posible:
+- consultar artículos originales;<br />
+- verificar enlaces;<br />
+- comprobar autores;<br />
+- y revisar publicaciones oficiales.  </p>
+<hr />
+<h3 id="comprobar-fechas-y-contexto">Comprobar fechas y contexto<a class="headerlink" href="#comprobar-fechas-y-contexto" title="Permanent link">&para;</a></h3>
+<p>La información puede estar desactualizada o fuera de contexto.</p>
+<hr />
+<h3 id="verificar-datos-numericos">Verificar datos numéricos<a class="headerlink" href="#verificar-datos-numericos" title="Permanent link">&para;</a></h3>
+<p>Los modelos pueden cometer errores matemáticos o estadísticos.</p>
+<hr />
+<h3 id="detectar-exceso-de-seguridad">Detectar exceso de seguridad<a class="headerlink" href="#detectar-exceso-de-seguridad" title="Permanent link">&para;</a></h3>
+<p>Las respuestas muy seguras no siempre son correctas.</p>
+<p>Una IA puede afirmar algo incorrecto con total convicción.</p>
+<hr />
+<h3 id="mantener-pensamiento-critico">Mantener pensamiento crítico<a class="headerlink" href="#mantener-pensamiento-critico" title="Permanent link">&para;</a></h3>
+<p>La IA debe funcionar como apoyo al razonamiento humano, no como sustituto del criterio personal.</p>
+<hr />
+<h2 id="45-nuevas-competencias-digitales">4.5. Nuevas competencias digitales<a class="headerlink" href="#45-nuevas-competencias-digitales" title="Permanent link">&para;</a></h2>
+<p>La expansión de la IA está modificando profundamente las competencias digitales necesarias en la sociedad actual.</p>
+<p>Durante muchos años, una habilidad fundamental consistía en:</p>
+<blockquote>
+<p>“Saber buscar información.”</p>
+</blockquote>
+<p>Hoy, además de buscar, necesitamos:<br />
+- interpretar;<br />
+- validar;<br />
+- contrastar;<br />
+- supervisar;<br />
+- y evaluar información generada automáticamente.  </p>
+<p>La competencia digital moderna ya no consiste únicamente en acceder a la información, sino también en determinar si dicha información es fiable.</p>
+<hr />
+<h1 id="5-automatizacion-cognitiva-y-trabajo-aumentado">5. Automatización cognitiva y trabajo aumentado<a class="headerlink" href="#5-automatizacion-cognitiva-y-trabajo-aumentado" title="Permanent link">&para;</a></h1>
+<h2 id="51-que-significa-automatizar-tareas-cognitivas">5.1. ¿Qué significa automatizar tareas cognitivas?<a class="headerlink" href="#51-que-significa-automatizar-tareas-cognitivas" title="Permanent link">&para;</a></h2>
+<p>Tradicionalmente, las máquinas automatizaban tareas físicas:<br />
+- mover objetos;<br />
+- fabricar piezas;<br />
+- transportar mercancías.  </p>
+<p>La IA actual automatiza tareas intelectuales:
+- redactar;<br />
+- clasificar;<br />
+- resumir;<br />
+- programar;<br />
+- analizar;<br />
+- buscar información;<br />
+- generar ideas;<br />
+- traducir;<br />
+- organizar contenido.  </p>
+<p>Esto se conoce frecuentemente como automatización cognitiva.</p>
+<hr />
+<h2 id="52-el-concepto-de-trabajo-aumentado">5.2. El concepto de trabajo aumentado<a class="headerlink" href="#52-el-concepto-de-trabajo-aumentado" title="Permanent link">&para;</a></h2>
+<p>La IA no siempre sustituye completamente al ser humano.</p>
+<p>En muchos casos:<br />
+- amplifica capacidades;<br />
+- acelera procesos;<br />
+- reduce tareas repetitivas;<br />
+- y mejora la productividad.  </p>
+<p>El profesional humano sigue siendo fundamental para:
+- supervisar;<br />
+- validar;<br />
+- interpretar;<br />
+- tomar decisiones;<br />
+- y asumir responsabilidad.  </p>
+<hr />
+<h2 id="53-cambios-en-el-perfil-profesional">5.3. Cambios en el perfil profesional<a class="headerlink" href="#53-cambios-en-el-perfil-profesional" title="Permanent link">&para;</a></h2>
+<p>En numerosos sectores, el trabajo está cambiando rápidamente.</p>
+<p>Por ejemplo:<br />
+- programadores que utilizan copilotos de código;<br />
+- investigadores que resumen artículos automáticamente;<br />
+- docentes que generan materiales educativos;<br />
+- periodistas que automatizan borradores;<br />
+- diseñadores que utilizan generación de imágenes;<br />
+- analistas que procesan datos mediante IA.  </p>
+<p>El profesional deja de ser únicamente “productor de contenido” para convertirse también en:<br />
+- supervisor;<br />
+- coordinador;<br />
+- evaluador;<br />
+- diseñador de procesos;<br />
+- y verificador de resultados.  </p>
+<hr />
+<h1 id="6-riesgos-y-limitaciones">6. Riesgos y limitaciones<a class="headerlink" href="#6-riesgos-y-limitaciones" title="Permanent link">&para;</a></h1>
+<h2 id="61-alucinaciones">6.1. Alucinaciones<a class="headerlink" href="#61-alucinaciones" title="Permanent link">&para;</a></h2>
+<p>Los modelos pueden generar información falsa con apariencia convincente.</p>
+<p>Este fenómeno recibe el nombre de alucinación.</p>
+<p>La IA puede:<br />
+- inventar referencias;<br />
+- generar datos incorrectos;<br />
+- producir explicaciones erróneas;<br />
+- o afirmar información inexistente.  </p>
+<p>Por ello, nunca debe asumirse automáticamente que una respuesta es correcta.</p>
+<hr />
+<h2 id="62-sesgos">6.2. Sesgos<a class="headerlink" href="#62-sesgos" title="Permanent link">&para;</a></h2>
+<p>Los modelos aprenden a partir de grandes volúmenes de información humana.</p>
+<p>Como consecuencia:<br />
+- pueden reproducir prejuicios;<br />
+- estereotipos;<br />
+- sesgos culturales;<br />
+- o desigualdades existentes en los datos.  </p>
+<hr />
+<h2 id="63-dependencia-tecnologica">6.3. Dependencia tecnológica<a class="headerlink" href="#63-dependencia-tecnologica" title="Permanent link">&para;</a></h2>
+<p>Un uso excesivamente pasivo de la IA puede provocar:<br />
+- pérdida de pensamiento crítico;<br />
+- dependencia de herramientas;<br />
+- reducción del esfuerzo cognitivo;<br />
+- y dificultades para validar información.  </p>
+<hr />
+<h2 id="64-supervision-humana">6.4. Supervisión humana<a class="headerlink" href="#64-supervision-humana" title="Permanent link">&para;</a></h2>
+<p>La supervisión humana sigue siendo imprescindible.</p>
+<p>La IA puede ayudar enormemente, pero:<br />
+- no comprende el mundo como un ser humano;<br />
+- no posee responsabilidad legal;<br />
+- no tiene criterio ético propio;<br />
+- y puede cometer errores graves.  </p>
+<p>Por ello:</p>
+<blockquote>
+<p>Utilizar IA de forma competente implica saber cuándo confiar… y cuándo no hacerlo.</p>
+</blockquote>
+<hr />
+<h1 id="8-conclusiones">8. Conclusiones<a class="headerlink" href="#8-conclusiones" title="Permanent link">&para;</a></h1>
+<p>La inteligencia artificial generativa está evolucionando rápidamente.</p>
+<p>En pocos años hemos pasado:<br />
+- de simples sistemas conversacionales;<br />
+- a asistentes capaces de utilizar herramientas;<br />
+- planificar tareas;<br />
+- generar contenido multimodal;<br />
+- y colaborar activamente con usuarios humanos.  </p>
+<p>Este cambio transforma nuestra forma de trabajar y de acceder al conocimiento.</p>
+<p>La IA permite:<br />
+- buscar información;<br />
+- sintetizar documentos;<br />
+- acelerar procesos;<br />
+- y automatizar tareas cognitivas.  </p>
+<p>Sin embargo, también introduce nuevos desafíos relacionados con:
+- la fiabilidad;<br />
+- la validación;<br />
+- los sesgos;<br />
+- y la dependencia tecnológica.  </p>
+<p>La cuestión ya no es únicamente:</p>
+<blockquote>
+<p>“¿Cómo escribir buenos prompts?”</p>
+</blockquote>
+<p>Ahora también debemos preguntarnos:<br />
+- cómo validar respuestas generadas automáticamente;<br />
+- cómo supervisar sistemas complejos;<br />
+- cómo automatizar procesos correctamente;<br />
+- y cómo mantener el pensamiento crítico en entornos altamente automatizados.  </p>
+<p>La competencia digital moderna ya no consiste solamente en usar herramientas.  <br />
+Consiste en comprenderlas críticamente.  </p>
 <hr />
 <p><strong>Resultados de aprendizaje:</strong> RA02, RA05<br />
 <strong>Competencias:</strong> CG02, CG04, CG5, CE02, CE05</p>

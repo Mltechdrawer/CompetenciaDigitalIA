@@ -410,29 +410,29 @@ En el contexto actual, la alfabetización digital ya no consiste únicamente en 
 <details>
 <summary><strong>Resultados de aprendizaje</strong></summary>
 
-La <strong>RA03</strong> Gestionar datos y contenidos digitales con seguridad y ética, garantizando privacidad e integridad. 
+<p><strong>RA03</strong> Gestionar datos y contenidos digitales con seguridad y ética, garantizando privacidad e integridad.</p> 
 
-Alcanzar este resultado de aprendizaje implica comprender que trabajar con información digital no consiste únicamente en almacenarla o compartirla, sino también en protegerla y utilizarla de manera responsable. Igual que una persona protege documentos importantes en el mundo físico, en los entornos digitales resulta necesario aplicar criterios de seguridad, privacidad y uso ético de la información.
+<p>Alcanzar este resultado de aprendizaje implica comprender que trabajar con información digital no consiste únicamente en almacenarla o compartirla, sino también en protegerla y utilizarla de manera responsable. Igual que una persona protege documentos importantes en el mundo físico, en los entornos digitales resulta necesario aplicar criterios de seguridad, privacidad y uso ético de la información.</p>
 
-La <strong>RA04</strong> Analizar críticamente el impacto social y ético de la IA en contextos profesionales. 
+<p><strong>RA04</strong> Analizar críticamente el impacto social y ético de la IA en contextos profesionales.</p> 
 
-Desarrollar este resultado supone aprender a observar la inteligencia artificial más allá de su utilidad tecnológica inmediata. La IA puede transformar la educación, el trabajo o la comunicación, pero también puede generar problemas relacionados con sesgos, privacidad, desinformación o dependencia tecnológica. Comprender estas implicaciones permite adoptar una actitud crítica y responsable frente al uso de sistemas inteligentes.
+<p>Desarrollar este resultado supone aprender a observar la inteligencia artificial más allá de su utilidad tecnológica inmediata. La IA puede transformar la educación, el trabajo o la comunicación, pero también puede generar problemas relacionados con sesgos, privacidad, desinformación o dependencia tecnológica. Comprender estas implicaciones permite adoptar una actitud crítica y responsable frente al uso de sistemas inteligentes.</p>
 
 </details>
 
 <details>
 <summary><strong>Competencias</strong></summary>
 
-La <strong>CG03</strong> Aplicar principios éticos, críticos y responsables en el uso de herramientas digitales y de inteligencia artificial, considerando su impacto social, legal y laboral. 
+<p><strong>CG03</strong> Aplicar principios éticos, críticos y responsables en el uso de herramientas digitales y de inteligencia artificial, considerando su impacto social, legal y laboral.</p> 
 
-Adquirir esta competencia es similar a aprender a conducir en una ciudad compleja: no basta con saber manejar el vehículo, también es necesario comprender las normas, los riesgos y las consecuencias de cada decisión. Del mismo modo, utilizar IA requiere criterio ético, pensamiento crítico y capacidad para valorar cómo estas tecnologías afectan a las personas y a la sociedad.
+<p>Adquirir esta competencia es similar a aprender a conducir en una ciudad compleja: no basta con saber manejar el vehículo, también es necesario comprender las normas, los riesgos y las consecuencias de cada decisión. Del mismo modo, utilizar IA requiere criterio ético, pensamiento crítico y capacidad para valorar cómo estas tecnologías afectan a las personas y a la sociedad.</p>
 
-La <strong>CE03</strong> Gestionar datos e información digital de manera segura y responsable, aplicando principios éticos y respetando la normativa vigente sobre protección de datos y derechos de autor. 
+<p><strong>CE03</strong> Gestionar datos e información digital de manera segura y responsable, aplicando principios éticos y respetando la normativa vigente sobre protección de datos y derechos de autor.</p> 
 
-Esta competencia supone desarrollar hábitos responsables en el tratamiento de información digital. Trabajar con IA implica manejar datos, contenidos y documentos que pueden contener información sensible o protegida. Por ello, resulta fundamental aprender a utilizar estas tecnologías respetando la privacidad, la seguridad y los derechos asociados a la información digital.
+<p>Esta competencia supone desarrollar hábitos responsables en el tratamiento de información digital. Trabajar con IA implica manejar datos, contenidos y documentos que pueden contener información sensible o protegida. Por ello, resulta fundamental aprender a utilizar estas tecnologías respetando la privacidad, la seguridad y los derechos asociados a la información digital.</p>
 
-La <strong>CE04</strong> Analizar críticamente casos de uso de la inteligencia artificial, valorando su impacto social, ético y laboral, así como sus limitaciones y riesgos. {index=4}
+<p><strong>CE04</strong> Analizar críticamente casos de uso de la inteligencia artificial, valorando su impacto social, ético y laboral, así como sus limitaciones y riesgos.</p>
 
-Desarrollar esta competencia es parecido a aprender a observar la tecnología con una mirada más profunda. No se trata únicamente de valorar si una herramienta funciona bien, sino también de analizar qué consecuencias puede tener su utilización, qué problemas puede generar y cómo afecta a las personas, al trabajo y a la sociedad en general.
+<p>Desarrollar esta competencia es parecido a aprender a observar la tecnología con una mirada más profunda. No se trata únicamente de valorar si una herramienta funciona bien, sino también de analizar qué consecuencias puede tener su utilización, qué problemas puede generar y cómo afecta a las personas, al trabajo y a la sociedad en general.</p>
 
 </details>

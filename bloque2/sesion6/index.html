@@ -459,6 +459,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    S6 – Evaluación de calidad y sesgos con IA
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -470,6 +483,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introducción
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -761,6 +802,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introducción
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -776,9 +834,342 @@
 
 
 <h1 id="sesion-6-evaluacion-de-calidad-y-sesgos-en-ia">Sesión 6 – Evaluacion de calidad y sesgos en IA<a class="headerlink" href="#sesion-6-evaluacion-de-calidad-y-sesgos-en-ia" title="Permanent link">&para;</a></h1>
+<h2 id="introduccion">Introducción<a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h2>
+<p>Los sistemas de IA generativa han alcanzado un nivel de sofisticación que les permite producir textos, imágenes, resúmenes, análisis y recomendaciones con una apariencia sorprendentemente convincente. Esta capacidad ha provocado que muchas personas comiencen a confiar en sus respuestas como si se tratara de sistemas objetivos, precisos y plenamente fiables.</p>
+<p>Sin embargo, la realidad es mucho más compleja.</p>
+<p>Los modelos generativos no comprenden la información del mismo modo que lo hace un ser humano. Tampoco poseen conocimiento consciente, razonamiento crítico o capacidad real para distinguir entre verdad y falsedad. Su funcionamiento se basa en patrones estadísticos aprendidos a partir de enormes cantidades de datos.</p>
+<p>Como consecuencia, estos sistemas pueden:</p>
+<ul>
+<li>cometer errores;  </li>
+<li>inventar información;  </li>
+<li>reproducir sesgos;  </li>
+<li>generar contenidos aparentemente correctos pero falsos;  </li>
+<li>o amplificar desigualdades presentes en los datos utilizados durante su entrenamiento.  </li>
+</ul>
+<p>En este contexto, una de las competencias digitales más importantes consiste en desarrollar la capacidad de evaluar críticamente los resultados producidos por IA.</p>
+<p>La alfabetización digital actual ya no implica únicamente saber utilizar herramientas tecnológicas, sino también comprender sus limitaciones, interpretar críticamente sus resultados y tomar decisiones responsables sobre su uso.</p>
+<hr />
+<h1 id="1-por-que-la-ia-puede-equivocarse">1. Por qué la IA puede equivocarse<a class="headerlink" href="#1-por-que-la-ia-puede-equivocarse" title="Permanent link">&para;</a></h1>
+<p>Uno de los errores más frecuentes al trabajar con IA generativa consiste en asumir que un texto bien redactado equivale necesariamente a una respuesta correcta.</p>
+<p>Los modelos actuales poseen una enorme capacidad para producir contenidos coherentes desde el punto de vista lingüístico. Sin embargo, la coherencia textual no garantiza exactitud factual.</p>
+<hr />
+<h2 id="11-naturaleza-probabilistica-de-los-modelos">1.1. Naturaleza probabilística de los modelos<a class="headerlink" href="#11-naturaleza-probabilistica-de-los-modelos" title="Permanent link">&para;</a></h2>
+<p>Los sistemas generativos funcionan mediante mecanismos probabilísticos. Su objetivo principal consiste en predecir cuál es la siguiente palabra o fragmento más probable dentro de una secuencia.</p>
+<p>Esto significa que el modelo:</p>
+<ul>
+<li>no razona como una persona;  </li>
+<li>no verifica automáticamente la información;  </li>
+<li>no “comprende” el contenido;  </li>
+<li>y no distingue entre verdad y falsedad de forma consciente.  </li>
+</ul>
+<p>El sistema simplemente genera patrones que estadísticamente parecen adecuados según el contexto disponible.</p>
+<hr />
+<h2 id="12-generacion-plausible-frente-a-generacion-correcta">1.2. Generación plausible frente a generación correcta<a class="headerlink" href="#12-generacion-plausible-frente-a-generacion-correcta" title="Permanent link">&para;</a></h2>
+<p>Uno de los aspectos más problemáticos de estos sistemas es su capacidad para producir respuestas plausibles aunque sean incorrectas.</p>
+<p>Una respuesta puede:</p>
+<ul>
+<li>sonar profesional;  </li>
+<li>utilizar lenguaje técnico;  </li>
+<li>presentar estructura académica;  </li>
+<li>e incluso incluir referencias aparentemente reales;  </li>
+</ul>
+<p>y aun así contener errores importantes.</p>
+<p>Este fenómeno genera una falsa sensación de confianza que puede resultar especialmente peligrosa en:</p>
+<ul>
+<li>educación;  </li>
+<li>investigación;  </li>
+<li>medicina;  </li>
+<li>derecho;  </li>
+<li>comunicación;  </li>
+<li>o toma de decisiones.  </li>
+</ul>
+<hr />
+<h2 id="13-alucinaciones">1.3. Alucinaciones<a class="headerlink" href="#13-alucinaciones" title="Permanent link">&para;</a></h2>
+<p>Las denominadas <em>hallucinations</em> o alucinaciones aparecen cuando un sistema genera información falsa o inventada presentándola como verdadera.</p>
+<p>Ejemplos habituales:</p>
+<ul>
+<li>referencias bibliográficas inexistentes;  </li>
+<li>datos inventados;  </li>
+<li>citas falsas;  </li>
+<li>estadísticas incorrectas;  </li>
+<li>explicaciones técnicamente imposibles.  </li>
+</ul>
+<p>El problema principal no es únicamente el error, sino la forma convincente en la que dicho error se presenta.</p>
+<hr />
+<h2 id="14-exceso-de-confianza">1.4. Exceso de confianza<a class="headerlink" href="#14-exceso-de-confianza" title="Permanent link">&para;</a></h2>
+<p>Los modelos generativos suelen responder con gran seguridad incluso cuando la información es incorrecta o insuficiente.</p>
+<p>A diferencia de las personas, normalmente no muestran dudas reales ni incertidumbre genuina.</p>
+<p>Esto provoca que muchos usuarios:</p>
+<ul>
+<li>sobrevaloren la fiabilidad del sistema;  </li>
+<li>deleguen decisiones importantes;  </li>
+<li>o reduzcan su capacidad crítica.  </li>
+</ul>
+<div class="admonition question">
+<p class="admonition-title">Pregunta para reflexionar</p>
+<p>¿Por qué una respuesta incorrecta puede parecer completamente fiable?</p>
+</div>
+<hr />
+<h1 id="2-que-entendemos-por-calidad-en-ia-generativa">2. Qué entendemos por calidad en IA generativa<a class="headerlink" href="#2-que-entendemos-por-calidad-en-ia-generativa" title="Permanent link">&para;</a></h1>
+<p>Evaluar la calidad de una respuesta generada por IA no siempre resulta sencillo.</p>
+<p>En muchos casos no existe una única respuesta correcta, especialmente en tareas relacionadas con:</p>
+<ul>
+<li>creatividad;  </li>
+<li>análisis;  </li>
+<li>redacción;  </li>
+<li>síntesis;  </li>
+<li>o generación de ideas.  </li>
+</ul>
+<p>Por este motivo, la calidad debe analizarse considerando múltiples dimensiones.</p>
+<hr />
+<h2 id="21-dimensiones-de-calidad">2.1. Dimensiones de calidad<a class="headerlink" href="#21-dimensiones-de-calidad" title="Permanent link">&para;</a></h2>
+<p>Algunos criterios habituales para evaluar resultados generados son:</p>
+<ul>
+<li>exactitud;  </li>
+<li>coherencia;  </li>
+<li>relevancia;  </li>
+<li>claridad;  </li>
+<li>completitud;  </li>
+<li>consistencia;  </li>
+<li>adecuación al contexto;  </li>
+<li>utilidad práctica.  </li>
+</ul>
+<p>Una respuesta técnicamente correcta puede resultar inútil si:</p>
+<ul>
+<li>no responde realmente al problema;  </li>
+<li>carece de contexto;  </li>
+<li>es excesivamente compleja;  </li>
+<li>o no se adapta al usuario.  </li>
+</ul>
+<hr />
+<h2 id="22-calidad-tecnica-frente-a-calidad-util">2.2. Calidad técnica frente a calidad útil<a class="headerlink" href="#22-calidad-tecnica-frente-a-calidad-util" title="Permanent link">&para;</a></h2>
+<p>Existe una diferencia importante entre:</p>
+<ul>
+<li>respuesta correcta;  </li>
+<li>respuesta útil;  </li>
+<li>respuesta adecuada para un contexto específico.  </li>
+</ul>
+<p>Por ejemplo, una explicación extremadamente técnica puede ser correcta desde el punto de vista académico, pero poco útil para una persona sin conocimientos previos.</p>
+<p>Del mismo modo, una respuesta breve puede resultar insuficiente en un contexto profesional, aunque sea técnicamente válida.</p>
+<p>La calidad depende siempre del objetivo perseguido.</p>
+<hr />
+<h2 id="23-evaluacion-humana">2.3. Evaluación humana<a class="headerlink" href="#23-evaluacion-humana" title="Permanent link">&para;</a></h2>
+<p>La revisión humana continúa siendo esencial.</p>
+<p>Actualmente, ningún sistema generativo puede garantizar automáticamente:</p>
+<ul>
+<li>veracidad absoluta;  </li>
+<li>ausencia de errores;  </li>
+<li>neutralidad;  </li>
+<li>o adecuación total al contexto.  </li>
+</ul>
+<p>Por ello, es necesario:</p>
+<ul>
+<li>contrastar información;  </li>
+<li>verificar fuentes;  </li>
+<li>revisar coherencia;  </li>
+<li>identificar inconsistencias;  </li>
+<li>y analizar críticamente los resultados.  </li>
+</ul>
+<p>La IA puede acelerar procesos, pero la validación crítica sigue dependiendo de las personas.</p>
+<hr />
+<h1 id="3-sesgos-en-sistemas-de-ia">3. Sesgos en sistemas de IA<a class="headerlink" href="#3-sesgos-en-sistemas-de-ia" title="Permanent link">&para;</a></h1>
+<p>Los sistemas de IA aprenden a partir de enormes cantidades de datos obtenidos de libros, páginas web, artículos, redes sociales y múltiples fuentes digitales.</p>
+<p>Como consecuencia, los modelos también heredan muchos de los problemas presentes en dichos datos.</p>
+<p>Uno de los más importantes es el sesgo.</p>
+<hr />
+<h2 id="31-que-es-un-sesgo">3.1. Qué es un sesgo<a class="headerlink" href="#31-que-es-un-sesgo" title="Permanent link">&para;</a></h2>
+<p>Un sesgo es una tendencia sistemática que favorece determinadas perspectivas, grupos, representaciones o interpretaciones frente a otras.</p>
+<p>Los sesgos pueden aparecer de forma:</p>
+<ul>
+<li>explícita;  </li>
+<li>implícita;  </li>
+<li>cultural;  </li>
+<li>histórica;  </li>
+<li>lingüística;  </li>
+<li>social;  </li>
+<li>o económica.  </li>
+</ul>
+<p>En muchos casos no son intencionados, pero aun así producen efectos importantes.</p>
+<hr />
+<h2 id="32-origen-de-los-sesgos">3.2. Origen de los sesgos<a class="headerlink" href="#32-origen-de-los-sesgos" title="Permanent link">&para;</a></h2>
+<p>Los modelos no inventan los sesgos desde cero. Generalmente los aprenden de los datos utilizados durante su entrenamiento.</p>
+<p>Internet constituye una fuente extremadamente amplia de información, pero también refleja:</p>
+<ul>
+<li>desigualdades;  </li>
+<li>estereotipos;  </li>
+<li>conflictos culturales;  </li>
+<li>desinformación;  </li>
+<li>discriminaciones históricas;  </li>
+<li>y desequilibrios sociales.  </li>
+</ul>
+<p>Si determinados grupos aparecen infrarrepresentados o representados de forma estereotipada, el sistema puede reproducir dichos patrones.</p>
+<hr />
+<h2 id="33-tipos-de-sesgos-frecuentes">3.3. Tipos de sesgos frecuentes<a class="headerlink" href="#33-tipos-de-sesgos-frecuentes" title="Permanent link">&para;</a></h2>
+<p>Los sesgos pueden manifestarse de muchas formas.</p>
+<h3 id="genero">Género<a class="headerlink" href="#genero" title="Permanent link">&para;</a></h3>
+<p>Asociar determinadas profesiones o roles a hombres o mujeres.</p>
+<h3 id="cultura">Cultura<a class="headerlink" href="#cultura" title="Permanent link">&para;</a></h3>
+<p>Priorizar perspectivas culturales dominantes frente a otras menos representadas.</p>
+<h3 id="idioma">Idioma<a class="headerlink" href="#idioma" title="Permanent link">&para;</a></h3>
+<p>Ofrecer mejores resultados en lenguas con mayor volumen de datos disponibles.</p>
+<h3 id="region-geografica">Región geográfica<a class="headerlink" href="#region-geografica" title="Permanent link">&para;</a></h3>
+<p>Representar ciertos contextos como “universales” ignorando diferencias locales.</p>
+<h3 id="nivel-socioeconomico">Nivel socioeconómico<a class="headerlink" href="#nivel-socioeconomico" title="Permanent link">&para;</a></h3>
+<p>Asumir acceso homogéneo a recursos, educación o tecnología.</p>
+<hr />
+<h2 id="34-sesgos-invisibles">3.4. Sesgos invisibles<a class="headerlink" href="#34-sesgos-invisibles" title="Permanent link">&para;</a></h2>
+<p>Muchos sesgos resultan difíciles de detectar porque coinciden con patrones normalizados socialmente.</p>
+<p>Precisamente por ello, el pensamiento crítico resulta fundamental.</p>
+<p>Un contenido puede parecer neutral aunque reproduzca:</p>
+<ul>
+<li>estereotipos;  </li>
+<li>exclusiones;  </li>
+<li>simplificaciones;  </li>
+<li>o perspectivas parciales.  </li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Idea clave</p>
+<p>Los sistemas de IA no son completamente neutrales porque aprenden a partir de datos generados por sociedades que tampoco lo son.</p>
+</div>
+<hr />
+<h1 id="4-evaluacion-critica-de-resultados-generados">4. Evaluación crítica de resultados generados<a class="headerlink" href="#4-evaluacion-critica-de-resultados-generados" title="Permanent link">&para;</a></h1>
+<p>La capacidad para evaluar críticamente información generada por IA constituye una de las competencias digitales más importantes en la actualidad.</p>
+<p>No basta con obtener respuestas rápidas. Es necesario analizar:</p>
+<ul>
+<li>calidad;  </li>
+<li>coherencia;  </li>
+<li>fiabilidad;  </li>
+<li>origen;  </li>
+<li>y posibles limitaciones.  </li>
+</ul>
+<hr />
+<h2 id="41-senales-de-baja-fiabilidad">4.1. Señales de baja fiabilidad<a class="headerlink" href="#41-senales-de-baja-fiabilidad" title="Permanent link">&para;</a></h2>
+<p>Algunas señales que pueden indicar problemas son:</p>
+<ul>
+<li>referencias difíciles de verificar;  </li>
+<li>afirmaciones excesivamente categóricas;  </li>
+<li>ausencia de fuentes;  </li>
+<li>contradicciones internas;  </li>
+<li>datos demasiado precisos sin justificación;  </li>
+<li>lenguaje ambiguo;  </li>
+<li>cambios repentinos de criterio.  </li>
+</ul>
+<p>Detectar estas señales requiere atención y experiencia.</p>
+<hr />
+<h2 id="42-estrategias-de-validacion">4.2. Estrategias de validación<a class="headerlink" href="#42-estrategias-de-validacion" title="Permanent link">&para;</a></h2>
+<p>Existen diferentes estrategias para mejorar la fiabilidad de los resultados generados.</p>
+<h3 id="contrastar-fuentes">Contrastar fuentes<a class="headerlink" href="#contrastar-fuentes" title="Permanent link">&para;</a></h3>
+<p>Comparar la información con documentos externos fiables.</p>
+<h3 id="solicitar-justificacion">Solicitar justificación<a class="headerlink" href="#solicitar-justificacion" title="Permanent link">&para;</a></h3>
+<p>Pedir explicaciones adicionales o razonamientos intermedios.</p>
+<h3 id="reformular-preguntas">Reformular preguntas<a class="headerlink" href="#reformular-preguntas" title="Permanent link">&para;</a></h3>
+<p>Cambiar la forma de plantear el problema para comprobar consistencia.</p>
+<h3 id="comparar-respuestas">Comparar respuestas<a class="headerlink" href="#comparar-respuestas" title="Permanent link">&para;</a></h3>
+<p>Analizar diferencias entre distintas herramientas o ejecuciones.</p>
+<h3 id="revisar-coherencia">Revisar coherencia<a class="headerlink" href="#revisar-coherencia" title="Permanent link">&para;</a></h3>
+<p>Detectar contradicciones o inconsistencias internas.</p>
+<hr />
+<h2 id="43-trazabilidad-y-responsabilidad">4.3. Trazabilidad y responsabilidad<a class="headerlink" href="#43-trazabilidad-y-responsabilidad" title="Permanent link">&para;</a></h2>
+<p>En contextos profesionales y académicos resulta importante conocer:</p>
+<ul>
+<li>de dónde proviene la información;  </li>
+<li>cómo ha sido generada;  </li>
+<li>qué partes han sido revisadas;  </li>
+<li>y qué decisiones humanas han intervenido.  </li>
+</ul>
+<p>La automatización no elimina la responsabilidad sobre los resultados obtenidos.</p>
+<div class="admonition question">
+<p class="admonition-title">Pregunta para reflexionar</p>
+<p>¿Confiamos demasiado en textos bien redactados?</p>
+</div>
+<hr />
+<h1 id="5-ia-confianza-y-toma-de-decisiones">5. IA, confianza y toma de decisiones<a class="headerlink" href="#5-ia-confianza-y-toma-de-decisiones" title="Permanent link">&para;</a></h1>
+<p>Uno de los mayores riesgos asociados a la IA generativa no es únicamente el error técnico, sino la tendencia humana a delegar excesivamente en sistemas automatizados.</p>
+<p>Cuando una herramienta produce respuestas rápidas, organizadas y aparentemente profesionales, muchas personas tienden a asumir que dichas respuestas son fiables.</p>
+<p>Este fenómeno se conoce como automatización de confianza.</p>
+<hr />
+<h2 id="51-autoridad-percibida-de-la-ia">5.1. Autoridad percibida de la IA<a class="headerlink" href="#51-autoridad-percibida-de-la-ia" title="Permanent link">&para;</a></h2>
+<p>La IA puede generar una sensación artificial de autoridad debido a:</p>
+<ul>
+<li>lenguaje técnico;  </li>
+<li>estructura formal;  </li>
+<li>rapidez de respuesta;  </li>
+<li>aparente objetividad;  </li>
+<li>capacidad de síntesis.  </li>
+</ul>
+<p>Sin embargo, apariencia de autoridad no equivale necesariamente a fiabilidad real.</p>
+<hr />
+<h2 id="52-dependencia-tecnologica">5.2. Dependencia tecnológica<a class="headerlink" href="#52-dependencia-tecnologica" title="Permanent link">&para;</a></h2>
+<p>A medida que las herramientas generativas se integran en procesos cotidianos, aumenta el riesgo de dependencia excesiva.</p>
+<p>Esto puede provocar:</p>
+<ul>
+<li>reducción del pensamiento crítico;  </li>
+<li>disminución de la verificación humana;  </li>
+<li>aceptación automática de resultados;  </li>
+<li>pérdida de autonomía intelectual.  </li>
+</ul>
+<hr />
+<h2 id="53-pensamiento-critico-digital">5.3. Pensamiento crítico digital<a class="headerlink" href="#53-pensamiento-critico-digital" title="Permanent link">&para;</a></h2>
+<p>La alfabetización digital moderna implica:</p>
+<ul>
+<li>cuestionar resultados;  </li>
+<li>verificar información;  </li>
+<li>interpretar limitaciones;  </li>
+<li>identificar riesgos;  </li>
+<li>y mantener capacidad crítica frente a sistemas automatizados.  </li>
+</ul>
+<p>La IA puede asistir procesos de decisión, pero no sustituye la responsabilidad humana.</p>
+<hr />
+<h1 id="conclusiones">Conclusiones<a class="headerlink" href="#conclusiones" title="Permanent link">&para;</a></h1>
+<p>Los sistemas de IA generativa constituyen herramientas extremadamente potentes, pero también imperfectas.</p>
+<p>Su capacidad para producir contenidos convincentes no garantiza:</p>
+<ul>
+<li>exactitud;  </li>
+<li>neutralidad;  </li>
+<li>ausencia de errores;  </li>
+<li>ni fiabilidad absoluta.  </li>
+</ul>
+<p>Por este motivo, el uso responsable de estas tecnologías requiere desarrollar competencias críticas orientadas a:</p>
+<ul>
+<li>evaluar calidad;  </li>
+<li>detectar sesgos;  </li>
+<li>verificar información;  </li>
+<li>supervisar resultados;  </li>
+<li>y comprender las limitaciones inherentes a los sistemas generativos.  </li>
+</ul>
+<p>En el contexto actual, la alfabetización digital ya no consiste únicamente en saber utilizar herramientas tecnológicas. También implica comprender cómo funcionan, interpretar críticamente sus resultados y tomar decisiones responsables sobre su uso.</p>
 <hr />
 <p><strong>Resultados de aprendizaje:</strong> RA04, RA05<br />
 <strong>Competencias:</strong> CG03, CG04, CE02, CE04</p>
+<details>
+<summary><strong>Resultados de aprendizaje</strong></summary>
+
+La <strong>RA03</strong> Gestionar datos y contenidos digitales con seguridad y ética, garantizando privacidad e integridad. 
+
+Alcanzar este resultado de aprendizaje implica comprender que trabajar con información digital no consiste únicamente en almacenarla o compartirla, sino también en protegerla y utilizarla de manera responsable. Igual que una persona protege documentos importantes en el mundo físico, en los entornos digitales resulta necesario aplicar criterios de seguridad, privacidad y uso ético de la información.
+
+La <strong>RA04</strong> Analizar críticamente el impacto social y ético de la IA en contextos profesionales. 
+
+Desarrollar este resultado supone aprender a observar la inteligencia artificial más allá de su utilidad tecnológica inmediata. La IA puede transformar la educación, el trabajo o la comunicación, pero también puede generar problemas relacionados con sesgos, privacidad, desinformación o dependencia tecnológica. Comprender estas implicaciones permite adoptar una actitud crítica y responsable frente al uso de sistemas inteligentes.
+
+</details>
+
+<details>
+<summary><strong>Competencias</strong></summary>
+
+La <strong>CG03</strong> Aplicar principios éticos, críticos y responsables en el uso de herramientas digitales y de inteligencia artificial, considerando su impacto social, legal y laboral. 
+
+Adquirir esta competencia es similar a aprender a conducir en una ciudad compleja: no basta con saber manejar el vehículo, también es necesario comprender las normas, los riesgos y las consecuencias de cada decisión. Del mismo modo, utilizar IA requiere criterio ético, pensamiento crítico y capacidad para valorar cómo estas tecnologías afectan a las personas y a la sociedad.
+
+La <strong>CE03</strong> Gestionar datos e información digital de manera segura y responsable, aplicando principios éticos y respetando la normativa vigente sobre protección de datos y derechos de autor. 
+
+Esta competencia supone desarrollar hábitos responsables en el tratamiento de información digital. Trabajar con IA implica manejar datos, contenidos y documentos que pueden contener información sensible o protegida. Por ello, resulta fundamental aprender a utilizar estas tecnologías respetando la privacidad, la seguridad y los derechos asociados a la información digital.
+
+La <strong>CE04</strong> Analizar críticamente casos de uso de la inteligencia artificial, valorando su impacto social, ético y laboral, así como sus limitaciones y riesgos. {index=4}
+
+Desarrollar esta competencia es parecido a aprender a observar la tecnología con una mirada más profunda. No se trata únicamente de valorar si una herramienta funciona bien, sino también de analizar qué consecuencias puede tener su utilización, qué problemas puede generar y cómo afecta a las personas, al trabajo y a la sociedad en general.
+
+</details>
 
 
 
